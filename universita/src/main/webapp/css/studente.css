@@ -1,0 +1,126 @@
+/* Reset base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+/* Corpo pagina */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #212529;
+  padding: 20px;
+}
+ 
+/* Container principale */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+ 
+/* Titolo pagina */
+h1 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #8aeae1;
+}
+ 
+/* Tabella studenti */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+ 
+thead {
+  background-color: #8aeae1;
+  color: white;
+}
+ 
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+ 
+tr:hover {
+  background-color: #f1f1f1;
+}
+ 
+/* Pulsante */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8aeae1;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+ 
+.btn:hover {
+  background-color: #0056b3;
+}
+ 
+.logo-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ 
+.logo {
+  width: 120px;       /* puoi aumentare o diminuire */
+  height: auto;
+}
+ 
+/* Footer */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+ 
+.success {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  padding: 12px;
+  border: 1px solid #badbcc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+ 
+.error {
+  background-color: #f8d7da;
+  color: #842029;
+  padding: 12px;
+  border: 1px solid #f5c2c7;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+ 
+footer {
+	background-color: #003366;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	font-size: 16px;
+}
+ 
+footer a {
+	color: white;
+	text-decoration: underline;
+}
+ 
+footer a:hover {
+	color: #001f4d;
+}

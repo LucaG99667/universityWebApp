@@ -1,0 +1,135 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body style */
+body {
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    min-height: 100vh;
+    padding: 50px 20px;
+    color: #333;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Logout link */
+a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #1c5985;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Input labels */
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    margin-right: 6px;
+    margin-left: 10px;
+}
+
+label:first-of-type {
+    margin-top: 10px;
+}
+
+/* Feedback message */
+p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Submit button - Registrati */
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 30px auto 0 auto;
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #217dbb;
+    transform: scale(1.03);
+}
+
+/* Animazione ingresso form */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+    }
+}

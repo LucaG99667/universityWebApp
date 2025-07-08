@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	background-image: url('immagini/federico2.jpg');
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 300px auto;
+	background-color: #f8f9fa;
+}
+
+header {
+	background-color: #003366;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+nav {
+	text-align: center;
+	margin-top: 30px;
+}
+
+nav a {
+	display: inline-block;
+	margin: 0 20px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #003366;
+	border: 3px solid #003366;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+}
+
+nav a:hover {
+	background-color: #003366;
+	color: white;
+}
+
+.intestazione {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.logo {
+	width: 90px;  /* oppure la dimensione che preferisci */
+	height: auto;
+}
+
+
+.galleria {
+    background-color: #d9f0ff;  
+    padding: 40px 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.galleria h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.immagini-facolta {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 10px;
+}
+
+.immagini-facolta img {
+    width: 24%;      
+    height: auto;     
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.immagini-facolta img:hover {
+    transform: scale(1.15);   
+    z-index: 10;              
+}
+
+
+footer {
+	background-color: #003366;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	font-size: 16px;
+}
+
+footer a {
+	color: white;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #001f4d;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.wrapper {
+	min-height: calc(100vh - 80px); 
+	background-color: #d9f0ff;
+	padding-bottom: 40px;
+}
